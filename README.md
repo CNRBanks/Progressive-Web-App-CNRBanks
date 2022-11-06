@@ -9,18 +9,11 @@
 
 ## Description
 
-This is an API for a social network web application in which users can share their thoughts, react to friends’ thoughts, and create a friend list. I used Express.js for routing, a MongoDB database, and a Mongoose ODM. 
+This is a progressive web application that can be utilized online by visitng the url or installed for usage offline!
 
 ## Installations
 
-- MongoDB https://www.mongodb.com/docs/manual/administration/install-community/
-
-- Open in terminal
-- npm install express
-- npm install mongoose --save
-- npm install moment --save
-- npm install
-- npm start
+You can install this application by opening the application in your terminal and running "npm i" and then "npm run start" then "npm run start:dev" to start the applications server. If you would like to install the application on to your computer you can do so by clicking the "install" button seen on the top left corner of the webpage.
 
 ## Preview
 
