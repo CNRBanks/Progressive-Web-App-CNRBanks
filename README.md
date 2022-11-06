@@ -17,6 +17,8 @@ You can install this application by opening the application in your terminal and
 
 If you would like to install the application on to your computer you can do so by clicking the button seen on the top left corner of the webpage.
 
+https://fast-river-93745.herokuapp.com/
+
 ## Usage
 
 This app can be used as a basic text editor!
