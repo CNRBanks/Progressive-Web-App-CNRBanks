@@ -4,7 +4,7 @@
 
 - [Description](#description)
 - [Installations](#installations)
-- [Preview](#preview)
+- [Usage](#usage)
 - [License](#license)
 
 ## Description
@@ -13,21 +13,13 @@ This is a progressive web application that can be utilized online by visitng the
 
 ## Installations
 
-You can install this application by opening the application in your terminal and running "npm i" and then "npm run start" then "npm run start:dev" to start the applications server. If you would like to install the application on to your computer you can do so by clicking the "install" button seen on the top left corner of the webpage.
+You can install this application by opening the application in your terminal and running "npm i" and then "npm run start" then "npm run start:dev" to start the applications server, then open it by navigating to localhost:3000 in your browser.
 
-## Preview
+If you would like to install the application on to your computer you can do so by clicking the button seen on the top left corner of the webpage.
 
-https://git.heroku.com/fast-river-93745.git
+## Usage
 
-
-heroku  https://git.heroku.com/fast-river-93745.git (fetch)
-heroku  https://git.heroku.com/fast-river-93745.git (push)
-origin  https://github.com/CNRBanks/Progressive-Web-App-CNRBanks.git (fetch)
-origin  https://github.com/CNRBanks/Progressive-Web-App-CNRBanks.git (push)
-
-
-![image1](./preview/image1.png)
-![image2](./preview/image2.png)
+This app can be used as a basic text editor!
 
 ## License
 
@@ -44,8 +36,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 </blockquote>
 </details>
-
-## Contributing
-
-- Express https://www.npmjs.com/package/express
-- Mongoose https://www.npmjs.com/package/mongoose
