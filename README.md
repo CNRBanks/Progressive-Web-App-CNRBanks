@@ -24,6 +24,15 @@ This is an API for a social network web application in which users can share the
 
 ## Preview
 
+https://git.heroku.com/fast-river-93745.git
+
+
+heroku  https://git.heroku.com/fast-river-93745.git (fetch)
+heroku  https://git.heroku.com/fast-river-93745.git (push)
+origin  https://github.com/CNRBanks/Progressive-Web-App-CNRBanks.git (fetch)
+origin  https://github.com/CNRBanks/Progressive-Web-App-CNRBanks.git (push)
+
+
 ![image1](./preview/image1.png)
 ![image2](./preview/image2.png)
 
