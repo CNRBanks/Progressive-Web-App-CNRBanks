@@ -3,8 +3,7 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
-// TODO: Add CSS loaders and babel to webpack.
+// DONE: Add and configure workbox plugins for a service worker and manifest file.
 
 module.exports = () => {
   return {
@@ -22,12 +21,12 @@ module.exports = () => {
         template: './index.html',
       }),
       new WebpackPwaManifest({
-        name: 'JATE',
-        short_name: 'JATE',
+        name: 'CNRs PWA Text Editor',
+        short_name: 'CNRS JATE',
         description: 'Just Another Text Editor',
         display: 'standalone',
-        background_color: '#00001',
-        theme_color: '#00001',
+        background_color: '#ffffff',
+        theme_color: '#272812',
         start_url: '/',
         publicPath: '/',
         fingerprints: false,
@@ -35,7 +34,7 @@ module.exports = () => {
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            sizes: [96, 128, 192, 256, 384, 512],
+            sizes: [96, 128, 192, 256, 384, 512], // allows scaling for multiple sizes
             destination: path.join('assets', 'icons'),
           },
         ],
@@ -46,12 +45,24 @@ module.exports = () => {
       }),
     ],
 
+    // DONE: Add CSS loaders and babel to webpack.
     module: {
       rules: [
         {
-          test: 
-        }
-        
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env'],
+              plugins: ['babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime']
+            },
+          },
+        },
       ],
     },
   };
